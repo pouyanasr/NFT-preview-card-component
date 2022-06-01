@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Courgette&family=Montserrat&family=Open+Sans:wght@300;400&family=Outfit:wght@300;400;600&family=Smooch&family=Ubuntu:wght@300&display=swap");
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  margin: 100px auto;
+  padding: 25px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.text-container {
+  text-align: left;
+}
+
+/* .eth-state {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eth-amount {
+  color: hsl(178, 100%, 50%);
+}
+
+.eth-amount::before {
+  content: url(./images/icon-ethereum.svg);
+  vertical-align: middle;
+}
+
+.eth-day {
+  color: hsl(215, 51%, 70%);
+}
+
+.eth-day::before {
+  content: url(./images/icon-clock.svg);
+  vertical-align: middle;
+} */
+
+.eth-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  padding-bottom: 25px;
+}
+
+.eth-container img {
+  margin-right: 5px;
+}
+
+.eth,
+.day {
+  display: flex;
+  align-items: center;
+}
+
+.eth span {
+  color: hsl(178, 100%, 50%);
+}
+
+.day span {
+  color: hsl(215, 51%, 70%);
+}
+
+.creation {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.creation img {
+  width: 10%;
+  height: 10%;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.creation span {
+  color: #fff;
+  font-weight: 400;
+}
+
+.attribution {
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    width: 30%;
+  }
+}
+
+@media (max-width: 940px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 80%;
+  }
+}
