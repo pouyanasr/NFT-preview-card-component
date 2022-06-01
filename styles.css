@@ -84,30 +84,6 @@ p {
   text-align: left;
 }
 
-/* .eth-state {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.eth-amount {
-  color: hsl(178, 100%, 50%);
-}
-
-.eth-amount::before {
-  content: url(./images/icon-ethereum.svg);
-  vertical-align: middle;
-}
-
-.eth-day {
-  color: hsl(215, 51%, 70%);
-}
-
-.eth-day::before {
-  content: url(./images/icon-clock.svg);
-  vertical-align: middle;
-} */
 
 .eth-container {
   width: 100%;
